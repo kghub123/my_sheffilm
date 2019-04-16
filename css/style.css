@@ -1,0 +1,161 @@
+/*Avengers table */
+.header h1 {
+  float: left;
+  padding: 5px 0px 0px 5px;
+}
+
+.header img {
+  float: left;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.week h5 {
+  text-align: left;
+  padding: 0px 5px 5px 5px;
+  font-style: italic;
+}
+
+.table {
+  text-align: center;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #555; /* Set a dark-grey background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  -moz-transform: rotate(270deg); /* To rotate special character arrow to face up */
+ -webkit-transform: rotate(270deg); /* To rotate special character arrow to face up */
+ -o-transform: rotate(270deg); /* To rotate special character arrow to face up */
+ -ms-transform: rotate(270deg); /* To rotate special character arrow to face up */
+ transform: rotate(270deg); /* To rotate special character arrow to face up */
+}
+
+#myBtn:hover {
+  background-color: red; /* Add a red background on hover */
+}
+
+
+/*Title of website */
+.display-4 {
+  font-style: oblique;
+  font-weight: bold;
+  color: #2f2f2f;
+  font-size: 50px;
+}
+
+
+/*Navigation on all pages */
+
+.nav-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+
+/*Footer on all pages */
+.bg-4 {
+  background-color: #2f2f2f; /*Dark Grey */
+  color: #ffffff;
+}
+
+/*Homepage */
+.bg-1 {
+  background-image: url('curtain.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 20px 0px 30px 0px;
+}
+
+.bg-2 {
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+  padding: 20px 0px 30px 0px;
+}
+
+.bg-3 {
+  background-color: #lightgrey;
+  padding: 20px 20px 20px 20px;
+}
+
+.map {
+  padding: 50px 20px 20px 20px;
+  
+}
+
+
+/*Contact us form */
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: Grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2f2f2f;
+}
+
+/* Style the container/contact section */
+.carousel {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*Contact us form */
